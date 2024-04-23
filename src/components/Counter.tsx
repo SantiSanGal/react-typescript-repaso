@@ -4,8 +4,8 @@ export const Counter = () => {
     const [counter, setCounter] = useState(0)
     const incremetar = (numero: number = 1): void => setCounter(counter + numero)
     return (
-        <div className="mt-5">
-            <h3>Counter: useState</h3>
+        <div>
+            <h3>Counter: </h3>
             <span>Valor: {counter}</span>
             <br />
             <button
